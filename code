@@ -4,23 +4,23 @@ using namespace std;
 
 int main()
 {
-    int usuario, senha;
+    int user, password;
 
 
-    cout << "Por favor, Digite o usuario" << endl;
-    cin >> usuario;
+    cout << "Please, type your username" << endl;
+    cin >> username;
 
-    if (usuario == 1234) {
-        cout << "Por favor, digite sua senha" << endl;
-        cin >> senha;
+    if (username == 1234) {
+        cout << "Please, type your password" << endl;
+        cin >> password;
 
-        if (senha == 9999) {
-            cout << "Acesso permitido" << endl;
+        if (password == 9999) {
+            cout << "Acess Allowed" << endl;
         } else {
-            cout << "senha incorreta" << endl;
+            cout << "Incorrect Password" << endl;
         }
     } else {
-        cout << "Usuario invalido" << endl;
+        cout << "Invalid User" << endl;
     }
 
     return 0;

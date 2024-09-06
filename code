@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int usuario, senha;
+
+
+    cout << "Por favor, Digite o usuario" << endl;
+    cin >> usuario;
+
+    if (usuario == 1234) {
+        cout << "Por favor, digite sua senha" << endl;
+        cin >> senha;
+
+        if (senha == 9999) {
+            cout << "Acesso permitido" << endl;
+        } else {
+            cout << "senha incorreta" << endl;
+        }
+    } else {
+        cout << "Usuario invalido" << endl;
+    }
+
+    return 0;
+}
